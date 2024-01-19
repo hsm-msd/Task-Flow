@@ -1,0 +1,80 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#rcorners2 {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#rcorners3 {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin-right: 20px;
+}
+
+#profilePic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+#usernameID {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.parent-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: #fff;
+    cursor: pointer;
+}
+
+#stylebox {
+    width: 75%;
+    height: 740px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.add-task-btn {
+    background-color: lightgray; /* Green background */
+    border: none; /* No borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline-block element */
+    font-size: 16px; /* Some font size */
+    margin: 4px 2px; /* Margins for spacing */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 8px; /* Rounded corners */
+    transition-duration: 0.4s; /* Smooth transition for hover effect */
+}
+
+
+
+.roundPanel{
+    border-radius:30px;
+}
